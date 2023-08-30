@@ -1,0 +1,30 @@
+.adminRoot {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #504235, #3d2d1e);
+}
+
+.adminMainContainer {
+    width: 100%;
+    max-width: 1440px !important;
+    height: 100%;
+    border: 2px solid red !important;
+}
+
+.logoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-top: 20px;
+}
+.logoContainer span {
+    font-weight: bold;
+    color: #d0d0d0;
+}
+
+.logo {
+    width: 200px;
+}
